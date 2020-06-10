@@ -142,7 +142,17 @@ team
 /************ 
 forma 
 ************/
-
+.form {
+    background: var(--gray);
+}
+.form .btn {
+    background: var(--violet);
+    columns: var(--yellow);
+}
+.form .btn:hover {
+    background: var(--yellow);
+    columns: var(--violet);
+}
 /************ 
 contact 
 ************/
