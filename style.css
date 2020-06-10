@@ -99,7 +99,21 @@ flex
 /************ 
 services 
 ************/
-
+.services{
+    padding: 60px 0;
+}
+.services .carousel-caption {
+    color: #555;
+}
+.services .carousel-item .col-md-7 {
+    margin-top: 80px;
+}
+.services .carousel-indicators li {
+    background-color: var(--violet);
+}
+.services .carousel-caption img {
+    border-radius: 30px;
+}
 /************ 
 partners 
 ************/
