@@ -156,7 +156,22 @@ forma
 /************ 
 contact 
 ************/
-
+.contact .fas {
+    font-size: 2rem;
+    color: var(--violet);
+}
+.contact ul li a {
+    font-size: 3rem;
+    color: var(--violet);
+}
+.contact ul li a:hover {
+    color: var(--yellow);
+}
 /************ 
 footer
 ************/
+footer {
+    background: var(--yellow);
+    color: var(--violet);
+    font-weight: bold;
+}
